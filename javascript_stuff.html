@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NicoDaPanda</title>
+         <link rel="icon" type="image/x-icon" href="lucio.jpg">  
+         <style>
+            body {
+             background-image: url('lucio.jpg');
+             background-repeat: no-repeat;
+             background-attachment: fixed;
+             background-size: cover;
+           }
+           p {
+            background-color: rgb(110, 110, 110);
+           }
+           </style>
+           <script>
+            function wassup(){ 
+            a = Math.random();
+            alert(a); 
+            }
+           </script>
+           <button type="button" onclick="wassup()">wassup</button>
+
+           <p>the world will end on</p><p id="world_ends"></p>
+           <button type="button"onclick="document.getElementById('doomsday').innerHTML = Date()">
+Click me to find out when the world will end</button>
+
+<p id="doomsday"></p> 
+</head>
+<body>
+    
+</body>
+</html>
